@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex Client Growth | More Growth. More Clients. Guaranteed.</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap');
+        
+        body {
+            font-family: 'Inter', system-ui, sans-serif;
+        }
+        
+        .hero-bg {
+            background: linear-gradient(135deg, #f8fafc 0%, #e0f2fe 100%);
+        }
+        
+        .cta-button {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+        }
+        
+        .option-card {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .option-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+        }
+        
+        .whatsapp-float {
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.08); }
+        }
+    </style>
+</head>
+<body class="bg-zinc-50 text-zinc-800">
+    <!-- HEADER -->
+    <header class="bg-white border-b sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-6 py-5 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-red-600 rounded-xl flex items-center justify-center text-white font-bold text-2xl">A</div>
+                <div>
+                    <h1 class="text-2xl font-bold tracking-tight">Apex Client Growth</h1>
+                    <p class="text-xs text-zinc-500 -mt-1">Marketing Agency</p>
+                </div>
+            </div>
+            
+            <div class="hidden md:flex items-center gap-8 text-sm font-medium">
+                <a href="#who-we-work-with" class="hover:text-red-600 transition-colors">Who We Work With</a>
+                <a href="#" class="hover:text-red-600 transition-colors">Services</a>
+                <a href="#" class="hover:text-red-600 transition-colors">Results</a>
+                <a href="#contact-section" class="hover:text-red-600 transition-colors">Contact</a>
+            </div>
+            
+            <div class="flex items-center gap-4">
+                <a href="mailto:Apexclientgrowth@gmail.com" class="text-sm font-medium hover:text-red-600 transition-colors hidden sm:block">
+                    Apexclientgrowth@gmail.com
+                </a>
+                <a href="https://wa.me/2347077939538" target="_blank"
+                   class="bg-green-600 text-white px-5 py-2.5 rounded-2xl font-semibold flex items-center gap-2 hover:bg-green-700 transition-colors">
+                    <i class="fab fa-whatsapp text-xl"></i>
+                    <span class="hidden sm:inline">07077939538</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero-bg py-20 md:py-32">
+        <div class="max-w-5xl mx-auto px-6 text-center">
+            <h1 class="text-5xl md:text-7xl font-black leading-none tracking-tighter mb-6">
+                More Growth.<br>More Clients.<br><span class="text-red-600">Guaranteed.</span>
+            </h1>
+            
+            <p class="text-xl md:text-2xl text-zinc-600 max-w-2xl mx-auto mb-10">
+                We help serious local business owners attract high-quality customers and scale their revenue.
+            </p>
+            
+            <button onclick="document.getElementById('contact-section').scrollIntoView({ behavior: 'smooth' })"
+                    class="cta-button bg-red-600 hover:bg-red-700 text-white text-2xl font-bold px-12 py-6 rounded-3xl shadow-xl inline-flex items-center gap-3">
+                YES, I WANT THAT!
+                <i class="fas fa-arrow-right"></i>
+            </button>
+        </div>
+    </section>
+
+    <!-- PROBLEM SECTION -->
+    <section class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="text-4xl font-bold mb-6">Marketing is important...</h2>
+            <p class="text-2xl text-zinc-600 max-w-2xl mx-auto">
+                But there are already 101 things on your to-do list.<br>
+                And they are all important too!
+            </p>
+            
+            <div class="mt-16">
+                <h3 class="text-3xl font-semibold mb-10">So How Do You Optimize Your Marketing?</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- BAD OPTIONS -->
+    <section class="py-16 bg-zinc-100">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Option 1 -->
+                <div class="option-card bg-white rounded-3xl p-8 shadow">
+                    <div class="w-16 h-16 bg-red-100 text-red-600 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-tools text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-center mb-4">HANDLE EVERYTHING YOURSELF?</h3>
+                    <p class="text-zinc-600 text-center leading-relaxed">
+                        That's fine if you have very little on your plate.<br><br>
+                        But if you're pretty swamped already... this isn't a viable option.
+                    </p>
+                </div>
+                
+                <!-- Option 2 -->
+                <div class="option-card bg-white rounded-3xl p-8 shadow">
+                    <div class="w-16 h-16 bg-red-100 text-red-600 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-user-plus text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-center mb-4">NEW STAFF?</h3>
+                    <p class="text-zinc-600 text-center leading-relaxed">
+                        Finding good people isn't easy.<br>
+                        Training and onboarding staff is costly.<br><br>
+                        And even if you find the perfect person... you're still depending on one person!
+                    </p>
+                </div>
+                
+                <!-- Option 3 -->
+                <div class="option-card bg-white rounded-3xl p-8 shadow">
+                    <div class="w-16 h-16 bg-red-100 text-red-600 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-building text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-center mb-4">HIRE AN AGENCY?</h3>
+                    <p class="text-zinc-600 text-center leading-relaxed">
+                        Don't have a big marketing budget?<br><br>
+                        You might end up having your account managed by the intern of the assistant's assistant.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHO WE WORK WITH -->
+    <section id="who-we-work-with" class="py-24 bg-white">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-5xl font-black mb-4">Built for Serious Business Owners</h2>
+                <p class="text-2xl text-zinc-600">We help local businesses that are ready to grow</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-zinc-50 border border-zinc-100 rounded-3xl p-8 hover:border-red-200 transition-colors">
+                    <h4 class="font-semibold text-xl mb-3">🏠 Roofing Companies</h4>
+                    <p class="text-zinc-600">Get more homeowners calling for roof repairs and installations.</p>
+                </div>
+                <div class="bg-zinc-50 border border-zinc-100 rounded-3xl p-8 hover:border-red-200 transition-colors">
+                    <h4 class="font-semibold text-xl mb-3">⚖️ Law Firms</h4>
+                    <p class="text-zinc-600">Attract high-value clients who need legal services.</p>
+                </div>
+                <div class="bg-zinc-50 border border-zinc-100 rounded-3xl p-8 hover:border-red-200 transition-colors">
+                    <h4 class="font-semibold text-xl mb-3">🏗️ Property Developers</h4>
+                    <p class="text-zinc-600">Fill your properties faster with qualified buyers.</p>
+                </div>
+                <div class="bg-zinc-50 border border-zinc-100 rounded-3xl p-8 hover:border-red-200 transition-colors">
+                    <h4 class="font-semibold text-xl mb-3">🛠️ Home Services</h4>
+                    <p class="text-zinc-600">Plumbers, electricians, painters &amp; more.</p>
+                </div>
+                <div class="bg-zinc-50 border border-zinc-100 rounded-3xl p-8 hover:border-red-200 transition-colors">
+                    <h4 class="font-semibold text-xl mb-3">🏥 Healthcare &amp; Clinics</h4>
+                    <p class="text-zinc-600">Book more appointments consistently.</p>
+                </div>
+                <div class="bg-zinc-50 border border-zinc-100 rounded-3xl p-8 hover:border-red-200 transition-colors">
+                    <h4 class="font-semibold text-xl mb-3">And Many More...</h4>
+                    <p class="text-zinc-600">Restaurants, gyms, schools, retailers, consultants — if you're a serious local business, we can help you grow.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOLUTION -->
+    <section class="py-24 bg-zinc-900 text-white" id="contact-section">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="text-5xl font-black leading-tight mb-8">
+                OK... So What Makes <span class="text-red-500">Apex Client Growth</span> Different?
+            </h2>
+            
+            <div class="bg-zinc-800 border border-zinc-700 rounded-3xl p-12 max-w-2xl mx-auto">
+                <p class="text-2xl leading-relaxed mb-10">
+                    We deliver real, measurable results for local Nigerian businesses through smart strategies and consistent execution.
+                </p>
+                
+                <button onclick="window.location.href='https://wa.me/2347077939538?text=Hi%20Apex%20Client%20Growth%2C%20I%27m%20interested%20in%20getting%20more%20customers%20for%20my%20business'"
+                        class="w-full bg-red-600 hover:bg-red-700 text-white text-2xl font-bold py-8 rounded-3xl shadow-xl flex items-center justify-center gap-4 transition-all">
+                    <span>GET MORE CLIENTS NOW</span>
+                    <i class="fab fa-whatsapp text-3xl"></i>
+                </button>
+                
+                <p class="text-sm mt-6">Call/WhatsApp: <strong>07077939538</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-zinc-900 text-white py-16">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-12">
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 bg-red-600 rounded-xl flex items-center justify-center text-white font-bold text-2xl">A</div>
+                    <div>
+                        <h3 class="text-2xl font-bold">Apex Client Growth</h3>
+                        <p class="text-zinc-400 text-sm">Serious Growth for Serious Businesses</p>
+                    </div>
+                </div>
+                
+                <div class="flex gap-8">
+                    <a href="https://www.facebook.com/share/18Wj2gfAPk/?mibextid=wwXIfr" target="_blank" class="hover:text-red-500 transition-colors">
+                        <i class="fab fa-facebook-f text-3xl"></i>
+                    </a>
+                    <a href="https://wa.me/2347077939538" target="_blank" class="hover:text-green-500 transition-colors">
+                        <i class="fab fa-whatsapp text-3xl"></i>
+                    </a>
+                </div>
+                
+                <div class="text-center md:text-right">
+                    <p class="text-zinc-400">Email: <a href="mailto:Apexclientgrowth@gmail.com" class="hover:text-white">Apexclientgrowth@gmail.com</a></p>
+                    <p class="text-zinc-400">Phone: <a href="https://wa.me/2347077939538" class="hover:text-white">07077939538</a></p>
+                </div>
+            </div>
+            
+            <div class="text-center text-xs text-zinc-500 mt-16 pt-8 border-t border-zinc-800">
+                ©️ 2026 Apex Client Growth. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- FLOATING WHATSAPP -->
+    <a href="https://wa.me/2347077939538" target="_blank"
+       class="whatsapp-float fixed bottom-8 right-8 bg-green-500 text-white w-16 h-16 rounded-2xl flex items-center justify-center shadow-2xl text-4xl z-50 hover:bg-green-600 transition-colors">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script>
+        console.log("%cApex Client Growth - Updated Landing Page Loaded", "color: #dc2626; font-weight: bold");
+    </script>
+</body>
+</html>
